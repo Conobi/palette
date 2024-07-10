@@ -15,7 +15,7 @@
   <UCheckbox
     v-model="grayscaleMode"
     label="Grayscale"
-    class="absolute bottom-0 right-0 p-8"
+    class="fixed bottom-0 right-0 p-8"
   />
 </template>
 

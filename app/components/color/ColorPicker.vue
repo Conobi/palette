@@ -56,6 +56,7 @@
             <URange
               v-if="l && c"
               v-model="h"
+              :ui="{ progress: { base: 'hidden' } }"
               class="range"
               size="lg"
               :min="0.001"
@@ -82,6 +83,7 @@
             <URange
               v-if="l && h"
               v-model="c"
+              :ui="{ progress: { base: 'hidden' } }"
               class="range"
               size="lg"
               :min="0.001"
@@ -108,6 +110,7 @@
             <URange
               v-if="c && h"
               v-model="l"
+              :ui="{ progress: { base: 'hidden' } }"
               class="range"
               size="lg"
               :min="0.001"
